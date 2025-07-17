@@ -1,0 +1,7 @@
+services:
+  - type: cron
+    name: ai-social-bot-scheduler
+    schedule: "30 0 * * *"
+    runtime: python
+    buildCommand: ""
+    startCommand: "python main.py"
