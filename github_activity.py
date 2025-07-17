@@ -54,12 +54,4 @@ def get_yesterday_commits():
             continue
 
     return activities
-    # return [
-    #     {
-    #         "repo": "portfolio-website",
-    #         "url": "https://github.com/your-username/portfolio-website/commit/456def",
-    #         "message": "Added new project section and updated contact form",
-    #         "summary": "Implemented a new section to showcase recent projects with animations. Also fixed validation issues in the contact form using regex."
-    #     }
-    # ]
 
